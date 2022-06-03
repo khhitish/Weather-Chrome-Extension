@@ -1,0 +1,16 @@
+{
+  "name": "Weather App",
+  "description": "Displays weather according to user's location",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "./index.html",
+    "default_icon": "./icons/128-128.png"
+  },
+  "icons": {
+    "16": "./icons/16-16.png",
+    "64": "./icons/64-64.png",
+    "128": "./icons/128-128.png"
+  },
+  "permissions": ["activeTab", "geolocation"]
+}
